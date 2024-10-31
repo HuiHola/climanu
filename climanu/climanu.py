@@ -37,7 +37,10 @@ class SimpleManu:
             return self.options[int(self.userinput)-1]
         except Exception as e:
             return self.userinput
-
+    def getUserinputAsInt(self):
+        return int(self.userinput)
+    def getUserinputIndex(self):
+        return int(self.userinput)-1
 
 
 
