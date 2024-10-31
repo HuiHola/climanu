@@ -1,6 +1,6 @@
 #author : HUI HOLA
 #github : https://github.com/HuiHola
-#version : 0.1
+#version : 0.2
 from rich.console import Console
 from rich.table import Table
 from rich.align import Align
